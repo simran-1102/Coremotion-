@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
+<html>
+<head>
+  <title>Simple JSP Calculator</title>
+</head>
+<body>
+
+<h1>Simple Calculator Using JSP</h1>
+
+<%
+  int a = 20;
+  int b = 10;
+%>
+
+<p>First Number: <%= a %></p>
+<p>Second Number: <%= b %></p>
+
+<p>Sum: <%= a + b %></p>
+<p>Difference: <%= a - b %></p>
+<p>Product: <%= a * b %></p>
+<p>Quotient: <%= b != 0 ? a / b : "Cannot divide by zero" %></p>
+
+</body>
+</html>
